@@ -27,7 +27,7 @@ command=/usr/bin/gunicorn --chdir=/data/httpserver -c /data/httpserver/config.py
 /usr/bin/supervisord
 
 ### 直接启动
-gunicorn -c config.py server:app
+```gunicorn -c config.py server:app```
 
 如果是存放在某个目录，比如 /data/httpserver ，可以实行如下命令启动：
-gunicorn --chdir=/data/httpserver -c /data/httpserver/config.py server:app
+```gunicorn --chdir=/data/httpserver -c /data/httpserver/config.py server:app```
