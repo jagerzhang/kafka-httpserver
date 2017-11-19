@@ -4,7 +4,7 @@ __author__ = "Jagerzhang"
 import multiprocessing  
 
 # 绑定IP和端口
-bind = '0.0.0.0:6666'  
+bind = '0.0.0.0:5000'  
 
 preload_app = True  
 
